@@ -1,0 +1,54 @@
+# Generated 2021-09-10 from:
+# /data/coros1/ddallon/workspace/Speechbrain/tests/integration/signal_processing/nmf_sourcesep/hyperparams.yaml
+# yamllint disable
+# Basic parameters
+output_folder: results/minimal/nmf_sourcesep
+sample_rate: 16000
+
+# Data files
+data_folder: ../../../../samples/audio_samples/sourcesep_samples
+csv_train: ../../../../samples/audio_samples/sourcesep_samples/csv_example_sourcesep_source1.csv
+csv_train2: ../../../../samples/audio_samples/sourcesep_samples/csv_example_sourcesep_source2.csv
+csv_test: ../../../../samples/audio_samples/sourcesep_samples/csv_example_sourcesep_mixture.csv
+
+# NMF parameters
+N_epochs: 50
+K: 20 # this specifies the number of template vectors to use in NMF.
+N_batch: 200
+m: 513  # length of stft vectors
+win_length: 40  # window length (in ms) for stft
+hop_length: 10  # hop length (in ms) for stft
+
+# Experiment flags:
+save_reconstructed: false   # saves the results
+copy_original_files: false    # copies the original files
+
+train_data: !new:speechbrain.dataio.legacy.ExtendedCSVDataset
+  csvpath: ../../../../samples/audio_samples/sourcesep_samples/csv_example_sourcesep_source1.csv
+  output_keys: [wav]
+  sorting: original
+  replacements:
+    data_folder: ../../../../samples/audio_samples/sourcesep_samples
+
+train_data2: !new:speechbrain.dataio.legacy.ExtendedCSVDataset
+  csvpath: ../../../../samples/audio_samples/sourcesep_samples/csv_example_sourcesep_source2.csv
+  output_keys: [wav]
+  sorting: original
+  replacements:
+    data_folder: ../../../../samples/audio_samples/sourcesep_samples
+
+test_data: !new:speechbrain.dataio.legacy.ExtendedCSVDataset
+  csvpath: ../../../../samples/audio_samples/sourcesep_samples/csv_example_sourcesep_mixture.csv
+  output_keys: [wav]
+  sorting: original
+  replacements:
+    data_folder: ../../../../samples/audio_samples/sourcesep_samples
+
+loader_kwargs:
+  batch_size: 200
+
+compute_features: !new:speechbrain.processing.features.STFT
+  sample_rate: 16000
+  n_fft: 1024
+  win_length: 40
+  hop_length: 10

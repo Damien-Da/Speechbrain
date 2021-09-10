@@ -1,0 +1,181 @@
+2021-09-10 15:30:29,848 - speechbrain.core - INFO - Beginning experiment!
+2021-09-10 15:30:29,849 - speechbrain.core - INFO - Experiment folder: results/minimal/nmf_sourcesep
+2021-09-10 15:30:32,941 - speechbrain.utils.superpowers - DEBUG - appdirs==1.4.4
+attrs==21.2.0
+backports.entry-points-selectable==1.1.0
+black==19.10b0
+certifi==2021.5.30
+cfgv==3.3.1
+charset-normalizer==2.0.4
+click==8.0.1
+distlib==0.3.2
+entrypoints==0.3
+filelock==3.0.12
+flake8==3.7.9
+huggingface-hub==0.0.16
+HyperPyYAML==1.0.0
+identify==2.2.13
+idna==3.2
+joblib==1.0.1
+mccabe==0.6.1
+more-itertools==8.9.0
+nodeenv==1.6.0
+numpy==1.21.2
+packaging==21.0
+pathspec==0.9.0
+platformdirs==2.3.0
+pluggy==0.13.1
+pre-commit==2.15.0
+py==1.10.0
+pycodestyle==2.5.0
+pyflakes==2.1.1
+pyparsing==2.4.7
+pytest==5.4.1
+PyYAML==5.4.1
+regex==2021.8.28
+requests==2.26.0
+ruamel.yaml==0.17.16
+ruamel.yaml.clib==0.2.6
+scipy==1.7.1
+sentencepiece==0.1.96
+six==1.16.0
+-e git+https://github.com/speechbrain/speechbrain.git@540071f1c146742166e7be42d3209d92ce4e6baf#egg=speechbrain
+toml==0.10.2
+torch==1.8.1
+torchaudio==0.8.1
+tqdm==4.62.2
+typed-ast==1.4.3
+typing-extensions==3.10.0.2
+urllib3==1.26.6
+virtualenv==20.7.2
+wcwidth==0.2.5
+yamllint==1.23.0
+
+
+2021-09-10 15:30:33,449 - speechbrain.utils.superpowers - DEBUG - fece871
+
+
+2021-09-10 15:31:17,822 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from /var/system_tmp/pytest-of-ddallon/pytest-0/test_categorical_encoder_savin0/char_encoding.txt, but file doesn't exist yet.
+2021-09-10 15:31:17,831 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /var/system_tmp/pytest-of-ddallon/pytest-0/test_categorical_encoder_savin0/char_encoding.txt
+2021-09-10 15:31:17,832 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /var/system_tmp/pytest-of-ddallon/pytest-0/test_categorical_encoder_savin0/tuple_encoding.txt
+2021-09-10 15:31:17,832 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /var/system_tmp/pytest-of-ddallon/pytest-0/test_categorical_encoder_savin0/unk_encoding.txt
+2021-09-10 15:31:17,833 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-09-10 15:31:17,833 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /var/system_tmp/pytest-of-ddallon/pytest-0/test_categorical_encoder_savin0/unk_encoding.txt
+2021-09-10 15:31:17,840 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /var/system_tmp/pytest-of-ddallon/pytest-0/test_text_encoder0/text_encoding.txt
+2021-09-10 15:31:17,844 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /var/system_tmp/pytest-of-ddallon/pytest-0/test_ctc_encoder0/ctc_encoding.txt
+2021-09-10 15:31:17,850 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-09-10 15:31:17,865 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpointer0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,870 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpointer0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,873 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpointer0/CKPT+2021-09-10+15-31-17+01
+2021-09-10 15:31:17,877 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpointer0/CKPT+2021-09-10+15-31-17+01
+2021-09-10 15:31:17,881 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpointer0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,884 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpointer0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,887 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpointer0/CKPT+ep1
+2021-09-10 15:31:17,890 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpointer0/CKPT+2021-09-10+15-31-17+02
+2021-09-10 15:31:17,895 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpointer0/CKPT+ep1
+2021-09-10 15:31:17,900 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2021-09-10 15:31:17,900 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2021-09-10 15:31:17,901 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-09-10 15:31:17,902 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_recovery_custom_io0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,903 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_recovery_custom_io0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,909 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,914 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+01
+2021-09-10 15:31:17,919 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,921 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,926 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+01
+2021-09-10 15:31:17,930 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,932 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,933 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+01
+2021-09-10 15:31:17,935 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+02
+2021-09-10 15:31:17,971 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+01
+2021-09-10 15:31:17,971 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+02
+2021-09-10 15:31:17,972 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,974 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:17,975 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+01
+2021-09-10 15:31:17,977 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+02
+2021-09-10 15:31:17,994 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_deletion0/CKPT+2021-09-10+15-31-17+00
+2021-09-10 15:31:18,007 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_multiple_ckpts_and_criter0/CKPT+2021-09-10+15-31-18+00
+2021-09-10 15:31:18,019 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_multiple_ckpts_and_criter0/CKPT+2021-09-10+15-31-18+01
+2021-09-10 15:31:18,041 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_multiple_ckpts_and_criter0/CKPT+2021-09-10+15-31-18+00
+2021-09-10 15:31:18,044 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_multiple_ckpts_and_criter0/CKPT+2021-09-10+15-31-18+00
+2021-09-10 15:31:18,077 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_multiple_ckpts_and_criter0/CKPT+2021-09-10+15-31-18+02
+2021-09-10 15:31:18,083 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_multiple_ckpts_and_criter0/CKPT+2021-09-10+15-31-18+03
+2021-09-10 15:31:18,096 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_torch_meta0/CKPT+2021-09-10+15-31-18+00
+2021-09-10 15:31:18,101 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_torch_meta0/CKPT+2021-09-10+15-31-18+00
+2021-09-10 15:31:18,105 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2021-09-10 15:31:18,105 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2021-09-10 15:31:18,107 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_hook_register0/CKPT+2021-09-10+15-31-18+00
+2021-09-10 15:31:18,108 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_checkpoint_hook_register0/CKPT+2021-09-10+15-31-18+00
+2021-09-10 15:31:18,120 - speechbrain.core - INFO - 110 trainable parameters in SimpleBrain
+2021-09-10 15:31:18,388 - speechbrain.pretrained.fetching - INFO - Fetch hyperparams.yaml: Delegating to Huggingface hub, source speechbrain/asr-transformer-transformerlm-librispeech.
+2021-09-10 15:31:18,423 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-09-10 15:31:18,862 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /speechbrain/asr-transformer-transformerlm-librispeech/resolve/main/hyperparams.yaml HTTP/1.1" 200 0
+2021-09-10 15:31:18,867 - filelock - DEBUG - Attempting to acquire lock 140121780153792 on /users/ddallon/.cache/huggingface/hub/b1810802561036cde8b27031d24a4fabb980a2ac136e79a9ec0d79cd9e309096.96bf0b916cf8328938261bd98b26099f6082dbb04f09f1f81d3100a2db4a8f49.lock
+2021-09-10 15:31:18,870 - filelock - INFO - Lock 140121780153792 acquired on /users/ddallon/.cache/huggingface/hub/b1810802561036cde8b27031d24a4fabb980a2ac136e79a9ec0d79cd9e309096.96bf0b916cf8328938261bd98b26099f6082dbb04f09f1f81d3100a2db4a8f49.lock
+2021-09-10 15:31:18,876 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-09-10 15:31:19,261 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /speechbrain/asr-transformer-transformerlm-librispeech/resolve/main/hyperparams.yaml HTTP/1.1" 200 4528
+2021-09-10 15:31:19,269 - filelock - DEBUG - Attempting to release lock 140121780153792 on /users/ddallon/.cache/huggingface/hub/b1810802561036cde8b27031d24a4fabb980a2ac136e79a9ec0d79cd9e309096.96bf0b916cf8328938261bd98b26099f6082dbb04f09f1f81d3100a2db4a8f49.lock
+2021-09-10 15:31:19,271 - filelock - INFO - Lock 140121780153792 released on /users/ddallon/.cache/huggingface/hub/b1810802561036cde8b27031d24a4fabb980a2ac136e79a9ec0d79cd9e309096.96bf0b916cf8328938261bd98b26099f6082dbb04f09f1f81d3100a2db4a8f49.lock
+2021-09-10 15:31:30,214 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in pretrained_models/EncoderDecoderASR-7181542605812455394.
+2021-09-10 15:31:30,245 - speechbrain.pretrained.fetching - INFO - Fetch normalizer.ckpt: Delegating to Huggingface hub, source speechbrain/asr-transformer-transformerlm-librispeech.
+2021-09-10 15:31:30,250 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-09-10 15:31:30,638 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /speechbrain/asr-transformer-transformerlm-librispeech/resolve/main/normalizer.ckpt HTTP/1.1" 302 0
+2021-09-10 15:31:30,642 - filelock - DEBUG - Attempting to acquire lock 140120959825088 on /users/ddallon/.cache/huggingface/hub/bcfe55863a532f129372248cb6632ad58a7e9d8e9267a86dba3d1355ea6d1b7e.c3b1d8082e854fcdf5a73959e47ae91ee7e0ee71aea02965ed0a28933b8a2e83.lock
+2021-09-10 15:31:30,645 - filelock - INFO - Lock 140120959825088 acquired on /users/ddallon/.cache/huggingface/hub/bcfe55863a532f129372248cb6632ad58a7e9d8e9267a86dba3d1355ea6d1b7e.c3b1d8082e854fcdf5a73959e47ae91ee7e0ee71aea02965ed0a28933b8a2e83.lock
+2021-09-10 15:31:30,651 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2021-09-10 15:31:30,750 - urllib3.connectionpool - DEBUG - https://cdn-lfs.huggingface.co:443 "GET /speechbrain/asr-transformer-transformerlm-librispeech/48683d4aeeabada648645b74d4d006f2947406c27b660739f3d96a660f10f8d5 HTTP/1.1" 200 1793
+2021-09-10 15:31:30,758 - filelock - DEBUG - Attempting to release lock 140120959825088 on /users/ddallon/.cache/huggingface/hub/bcfe55863a532f129372248cb6632ad58a7e9d8e9267a86dba3d1355ea6d1b7e.c3b1d8082e854fcdf5a73959e47ae91ee7e0ee71aea02965ed0a28933b8a2e83.lock
+2021-09-10 15:31:30,760 - filelock - INFO - Lock 140120959825088 released on /users/ddallon/.cache/huggingface/hub/bcfe55863a532f129372248cb6632ad58a7e9d8e9267a86dba3d1355ea6d1b7e.c3b1d8082e854fcdf5a73959e47ae91ee7e0ee71aea02965ed0a28933b8a2e83.lock
+2021-09-10 15:31:30,776 - speechbrain.pretrained.fetching - INFO - Fetch asr.ckpt: Delegating to Huggingface hub, source speechbrain/asr-transformer-transformerlm-librispeech.
+2021-09-10 15:31:30,780 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-09-10 15:31:31,174 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /speechbrain/asr-transformer-transformerlm-librispeech/resolve/main/asr.ckpt HTTP/1.1" 302 0
+2021-09-10 15:31:31,178 - filelock - DEBUG - Attempting to acquire lock 140120959825952 on /users/ddallon/.cache/huggingface/hub/c51fcff21a15ab8bd63b1c106536cf5aca24dc2a9a51349af3bccd4a0868b316.510556df5c57984a1a07105d2a59f7bd5d2f4cc21e2b98fcefbdad5b8bc28779.lock
+2021-09-10 15:31:31,180 - filelock - INFO - Lock 140120959825952 acquired on /users/ddallon/.cache/huggingface/hub/c51fcff21a15ab8bd63b1c106536cf5aca24dc2a9a51349af3bccd4a0868b316.510556df5c57984a1a07105d2a59f7bd5d2f4cc21e2b98fcefbdad5b8bc28779.lock
+2021-09-10 15:31:31,185 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2021-09-10 15:31:31,262 - urllib3.connectionpool - DEBUG - https://cdn-lfs.huggingface.co:443 "GET /speechbrain/asr-transformer-transformerlm-librispeech/01bfdfb2bbfcb99605a6ad68f6f539785bd598385c4020f579a0a16f9bd803f7 HTTP/1.1" 200 654179252
+2021-09-10 15:31:48,923 - filelock - DEBUG - Attempting to release lock 140120959825952 on /users/ddallon/.cache/huggingface/hub/c51fcff21a15ab8bd63b1c106536cf5aca24dc2a9a51349af3bccd4a0868b316.510556df5c57984a1a07105d2a59f7bd5d2f4cc21e2b98fcefbdad5b8bc28779.lock
+2021-09-10 15:31:48,927 - filelock - INFO - Lock 140120959825952 released on /users/ddallon/.cache/huggingface/hub/c51fcff21a15ab8bd63b1c106536cf5aca24dc2a9a51349af3bccd4a0868b316.510556df5c57984a1a07105d2a59f7bd5d2f4cc21e2b98fcefbdad5b8bc28779.lock
+2021-09-10 15:31:48,936 - speechbrain.pretrained.fetching - INFO - Fetch lm.ckpt: Delegating to Huggingface hub, source speechbrain/asr-transformer-transformerlm-librispeech.
+2021-09-10 15:31:48,942 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-09-10 15:31:49,328 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /speechbrain/asr-transformer-transformerlm-librispeech/resolve/main/lm.ckpt HTTP/1.1" 302 0
+2021-09-10 15:31:49,339 - filelock - DEBUG - Attempting to acquire lock 140120959826672 on /users/ddallon/.cache/huggingface/hub/d9911c8025fa9e64e89b21993a3293698d6d477e555b8ee0ba78dd67c49e6c1f.ea8112b8aec30b8d96ddee3468fd46adf0f43ce8e61b2f6cb27f9ffaa327a4bf.lock
+2021-09-10 15:31:49,340 - filelock - INFO - Lock 140120959826672 acquired on /users/ddallon/.cache/huggingface/hub/d9911c8025fa9e64e89b21993a3293698d6d477e555b8ee0ba78dd67c49e6c1f.ea8112b8aec30b8d96ddee3468fd46adf0f43ce8e61b2f6cb27f9ffaa327a4bf.lock
+2021-09-10 15:31:49,346 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2021-09-10 15:31:49,398 - urllib3.connectionpool - DEBUG - https://cdn-lfs.huggingface.co:443 "GET /speechbrain/asr-transformer-transformerlm-librispeech/87f1398c0ed833631e487aedfbda32be4c9618565482f6fad78ca4e8dda03e5b HTTP/1.1" 200 381074869
+2021-09-10 15:32:01,595 - filelock - DEBUG - Attempting to release lock 140120959826672 on /users/ddallon/.cache/huggingface/hub/d9911c8025fa9e64e89b21993a3293698d6d477e555b8ee0ba78dd67c49e6c1f.ea8112b8aec30b8d96ddee3468fd46adf0f43ce8e61b2f6cb27f9ffaa327a4bf.lock
+2021-09-10 15:32:01,604 - filelock - INFO - Lock 140120959826672 released on /users/ddallon/.cache/huggingface/hub/d9911c8025fa9e64e89b21993a3293698d6d477e555b8ee0ba78dd67c49e6c1f.ea8112b8aec30b8d96ddee3468fd46adf0f43ce8e61b2f6cb27f9ffaa327a4bf.lock
+2021-09-10 15:32:01,627 - speechbrain.pretrained.fetching - INFO - Fetch tokenizer.ckpt: Delegating to Huggingface hub, source speechbrain/asr-transformer-transformerlm-librispeech.
+2021-09-10 15:32:01,632 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-09-10 15:32:02,025 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /speechbrain/asr-transformer-transformerlm-librispeech/resolve/main/tokenizer.ckpt HTTP/1.1" 302 0
+2021-09-10 15:32:02,035 - filelock - DEBUG - Attempting to acquire lock 140120959824512 on /users/ddallon/.cache/huggingface/hub/a8e2a543a8a72abf96421d3218b62a6209dfb004c4eb589bed7e0e33887d39e2.a372492b730622ab66d58b34c7cc2265bfbc404677c455a7cdf7bb1b0d2dcd1d.lock
+2021-09-10 15:32:02,038 - filelock - INFO - Lock 140120959824512 acquired on /users/ddallon/.cache/huggingface/hub/a8e2a543a8a72abf96421d3218b62a6209dfb004c4eb589bed7e0e33887d39e2.a372492b730622ab66d58b34c7cc2265bfbc404677c455a7cdf7bb1b0d2dcd1d.lock
+2021-09-10 15:32:02,043 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2021-09-10 15:32:02,122 - urllib3.connectionpool - DEBUG - https://cdn-lfs.huggingface.co:443 "GET /speechbrain/asr-transformer-transformerlm-librispeech/3cdc063492725aa2809a5fbb1aa790eda0e58370c810ebb54a8f4c8b2c46ea68 HTTP/1.1" 200 324347
+2021-09-10 15:32:02,149 - filelock - DEBUG - Attempting to release lock 140120959824512 on /users/ddallon/.cache/huggingface/hub/a8e2a543a8a72abf96421d3218b62a6209dfb004c4eb589bed7e0e33887d39e2.a372492b730622ab66d58b34c7cc2265bfbc404677c455a7cdf7bb1b0d2dcd1d.lock
+2021-09-10 15:32:02,151 - filelock - INFO - Lock 140120959824512 released on /users/ddallon/.cache/huggingface/hub/a8e2a543a8a72abf96421d3218b62a6209dfb004c4eb589bed7e0e33887d39e2.a372492b730622ab66d58b34c7cc2265bfbc404677c455a7cdf7bb1b0d2dcd1d.lock
+2021-09-10 15:32:02,163 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: normalizer, asr, lm, tokenizer
+2021-09-10 15:32:22,826 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-09-10 15:32:22,840 - speechbrain.utils.checkpoints - INFO - Saved an intra-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_epoch_loop_recovery0/CKPT+2021-09-10+15-32-22+00
+2021-09-10 15:32:22,843 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_epoch_loop_recovery0/CKPT+2021-09-10+15-32-22+00
+2021-09-10 15:32:22,843 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-09-10 15:32:22,844 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_epoch_loop_recovery0/CKPT+2021-09-10+15-32-22+01
+2021-09-10 15:32:22,844 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2021-09-10 15:32:22,847 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_epoch_loop_recovery0/CKPT+2021-09-10+15-32-22+01
+2021-09-10 15:32:22,847 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2021-09-10 15:32:22,848 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /var/system_tmp/pytest-of-ddallon/pytest-0/test_epoch_loop_recovery0/CKPT+2021-09-10+15-32-22+02
+2021-09-10 15:32:22,852 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /var/system_tmp/pytest-of-ddallon/pytest-0/test_epoch_loop_recovery0/CKPT+2021-09-10+15-32-22+02
+2021-09-10 15:32:26,040 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in /var/system_tmp/pytest-of-ddallon/pytest-0/test_pretrainer0/reused.
+2021-09-10 15:32:26,040 - speechbrain.pretrained.fetching - INFO - Fetch model.ckpt: Linking to local file in /var/system_tmp/pytest-of-ddallon/pytest-0/test_pretrainer0/original/model.ckpt.
+2021-09-10 15:32:26,041 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: model
+2021-09-10 15:32:26,377 - speechbrain.tokenizers.SentencePiece - INFO - Train tokenizer with type:bpe
+2021-09-10 15:32:26,443 - speechbrain.tokenizers.SentencePiece - INFO - Extract wrd sequences from:/data/coros1/ddallon/workspace/Speechbrain/tests/unittests/tokenizer_data/dev-clean.csv
+2021-09-10 15:32:26,537 - speechbrain.tokenizers.SentencePiece - INFO - Text file created at: /data/coros1/ddallon/workspace/Speechbrain/tests/unittests/tokenizer_data/dev-clean.txt
+2021-09-10 15:32:26,629 - speechbrain.tokenizers.SentencePiece - INFO - ==== Loading Tokenizer ===
+2021-09-10 15:32:26,629 - speechbrain.tokenizers.SentencePiece - INFO - Tokenizer path: /data/coros1/ddallon/workspace/Speechbrain/tokenizer_data/100_bpe.model
+2021-09-10 15:32:26,629 - speechbrain.tokenizers.SentencePiece - INFO - Tokenizer vocab_size: 100
+2021-09-10 15:32:26,630 - speechbrain.tokenizers.SentencePiece - INFO - Tokenizer type: bpe
+2021-09-10 15:32:26,646 - speechbrain.tokenizers.SentencePiece - INFO - Tokenizer is already trained.
+2021-09-10 15:32:26,646 - speechbrain.tokenizers.SentencePiece - INFO - ==== Loading Tokenizer ===
+2021-09-10 15:32:26,646 - speechbrain.tokenizers.SentencePiece - INFO - Tokenizer path: /data/coros1/ddallon/workspace/Speechbrain/tokenizer_data/100_bpe.model
+2021-09-10 15:32:26,646 - speechbrain.tokenizers.SentencePiece - INFO - Tokenizer vocab_size: 100
+2021-09-10 15:32:26,646 - speechbrain.tokenizers.SentencePiece - INFO - Tokenizer type: bpe
